@@ -1,6 +1,3 @@
-game.Players.LocalPlayer.Character.Pants:Destroy()
-game.Players.LocalPlayer.Character.Shirt:Destroy()
-game.Players.LocalPlayer.Character.Shirt Graphic:Destroy()
 local lp = game:GetService "Players".LocalPlayer
 if lp.Character:FindFirstChild "Head" then
     local char = lp.Character
